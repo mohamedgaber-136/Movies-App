@@ -19,7 +19,7 @@ const FullNowPlaying = memo(() => {
   }
   useEffect(() => {
     switch (sectionName) {
-      case "nowPlaying":
+      case "NowPlaying":
         setx(nowPlaying);
         break;
       case "TvSeries":

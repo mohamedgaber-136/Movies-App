@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Movies-App/static/css/main.dfc840c6.css",
+    "main.js": "/Movies-App/static/js/main.5eef1704.js",
+    "static/js/988.82ccd84d.chunk.js": "/Movies-App/static/js/988.82ccd84d.chunk.js",
+    "static/media/wallhaven-42roy9.jpg": "/Movies-App/static/media/wallhaven-42roy9.138f34a23a20753a18a2.jpg",
+    "static/media/R.jpeg": "/Movies-App/static/media/R.df4dc950b1661a1655c1.jpeg",
+    "static/media/movies-removebg-preview.webp": "/Movies-App/static/media/movies-removebg-preview.712ddae72ba3313e3dc3.webp",
+    "index.html": "/Movies-App/index.html",
+    "main.dfc840c6.css.map": "/Movies-App/static/css/main.dfc840c6.css.map",
+    "main.5eef1704.js.map": "/Movies-App/static/js/main.5eef1704.js.map",
+    "988.82ccd84d.chunk.js.map": "/Movies-App/static/js/988.82ccd84d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfc840c6.css",
+    "static/js/main.5eef1704.js"
+  ]
+}

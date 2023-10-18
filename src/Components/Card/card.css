@@ -1,0 +1,54 @@
+*{
+    text-decoration: none;
+}
+.imgContainer img{
+width: 250px;
+height:375px ;
+}
+.CardParent{
+    height: 420px;
+    border-radius: 10px;
+    width: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+@media(max-width:540px){
+    .CardParent{width: 200px;}
+}
+@media(max-width:438px){
+    .CardParent{width: 250px;
+    
+    }
+}
+.CardParent:hover img {
+transform: scale(1.3);
+filter: brightness(60%);
+}
+.imgContainer{
+    width: 250px;
+    height: 375px;
+    overflow: hidden;
+}
+.CardParent img{
+    object-fit: cover;
+    width: 100%;
+    transition: 0.5s;
+}
+.contentParent{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+}
+section>h2{
+    border: 4px double grey;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.linkCard{
+    text-decoration: none;
+}
+.contentChild{
+    width:'50%';height:'100%'
+}

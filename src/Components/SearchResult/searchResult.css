@@ -1,0 +1,24 @@
+.searchResult {
+  position: fixed;
+  width: 80%;
+  padding-top: 86px;
+  transition: 0.5s;
+  top: 0;
+  overflow-y: scroll;
+  z-index: 200;
+  background-color: black;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+@media( max-width: 630px){
+.searchResult{
+    width: 425px;
+}
+}
+@media( max-width: 425px){
+.searchResult{
+    width: 250px;
+    align-items: center;
+}
+}

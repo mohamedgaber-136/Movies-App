@@ -1,0 +1,112 @@
+.Home {
+  width: 100%;
+  background-color: red;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+section{
+  position: relative;
+}
+.bgImg{
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+filter: brightness(20%);
+background-position: center;
+background-size: cover;
+z-index: -1;
+}
+.bg-title{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 33333;
+  text-align: center;
+  top:50%;
+  left: 50%;
+  font-size:55px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eee;
+  color: black !important;
+}
+.Uptitle{
+  color: red !important;
+
+}
+@media(max-width:768px){
+  .bg-para{
+    font-size: 20px;
+  }
+}
+.bg-para{
+  position: absolute;
+  z-index: 33333;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 1px grey;
+}
+.ViewMore{
+  text-decoration: none;
+  color: white;
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.ViewMore:hover{
+  color:black;
+  background-color: white;
+  transform: scale(0.9);
+}
+.mySwiper{
+  display: flex;
+}
+.bgBluring{
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  filter: brightness(75%);
+  background-size: cover;
+
+}
+.topRatedPara{
+  font-size: 1.1vw;
+  color: white !important;
+  text-align: center;
+  width: 70%;
+}
+@media(max-width:768px){
+  .topRatedPara{
+    font-size: 2vw;
+  }
+}
+.upCircle{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 90px;
+  right: 10px;
+  border-radius: 50%;
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999999;
+}
+.upCircle a{
+  text-decoration: none;
+  color: black !important;
+  font-size: 20px;
+
+}

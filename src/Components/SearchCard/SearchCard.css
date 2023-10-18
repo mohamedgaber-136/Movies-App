@@ -1,0 +1,22 @@
+.searchCard{
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+
+}
+.searchCard img {
+    transition: 0.5s;
+    object-fit: cover;
+}
+.searchCard:hover img{
+    transform: scale(1.1);
+}
+.searchResult i {
+    position: absolute;
+    right:2%;
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+    top: 50%;
+}

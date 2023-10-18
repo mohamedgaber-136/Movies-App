@@ -1,0 +1,62 @@
+.moviePosterImg{
+  opacity: "0.5" 
+}
+.movie-poster {
+  position: absolute;
+  background-color: transparent;
+  width: 90%;
+  top: 60px;
+  left: 50%;
+  margin-left: -45%;
+  z-index: 100;
+  height: 90%;
+}
+
+.movie-poster .container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.movie-img {
+  height: 90%;
+  opacity: 1;
+  width: 280px !important;
+}
+.movie-img img {
+  width: 280px !important;
+}
+
+.movie-overview {
+  display: flex;
+}
+
+.movie-poster-card {
+  height: 600px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .movie-img {
+    height: 67%;
+  }
+  .movie-overview {
+    display: none;
+  }
+  .movie-poster-card {
+    height: 600px;
+  }
+  .movie-poster .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+  .posterImg{
+    height: 100%;
+  }
+}
+
+.posterImg{
+  height: "100%"; width: "100%"; opacity: "1"
+}
